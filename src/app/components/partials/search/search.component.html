@@ -1,0 +1,6 @@
+<div>
+    <input #find type="text" placeholder="Search your cravings!" (keyup.enter)= "search(find.value)" 
+    [value]="searchTerm"/>
+    <button (click)="search(find.value)" >Search</button>
+
+</div>
